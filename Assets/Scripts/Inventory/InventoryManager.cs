@@ -68,6 +68,11 @@ public class InventoryManager : MonoBehaviour
         allSlots = allSlots_.ToArray();
     }
 
+    public void DragDrop(Slot from, Slot to)
+    {
+
+    }
+
     public void AddItem(Pickup pickUp)
     {
         if (pickUp.data.isStackable)
@@ -191,6 +196,8 @@ public class InventoryManager : MonoBehaviour
     public void DropItem(Slot slot)
     {
         Pickup pickup = Instantiate(dropModel, dropPos).AddComponent<Pickup>();
+        pickup.transform.position = dropPos.position;
+        pickup.transform.SetParent(null);
 
         pickup.data = slot.data;
         pickup.stackSize = slot.stackSize;

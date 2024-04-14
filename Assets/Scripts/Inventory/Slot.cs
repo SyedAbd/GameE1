@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class Slot : MonoBehaviour
+public class Slot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
+    private DragDropHandler dragDropHandler;
+    private InventoryManager inventory;
+
+
+
     public ItemSO data;
     public int stackSize;
 
@@ -17,6 +23,9 @@ public class Slot : MonoBehaviour
 
     private void Start()
     {
+        dragDropHandler = GetComponentInParent<DragDropHandler>();
+        inventory = GetComponentInParent<InventoryManager>();
+
         UpdateSlot();
     }
 
@@ -65,5 +74,48 @@ public class Slot : MonoBehaviour
         stackSize = 0;
 
         UpdateSlot();
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        if (!dragDropHandler.isDragging)
+        {
+            dragDropHandler.slotDraggedFrom = this; 
+            dragDropHandler.isDragging = true;
+        }
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (dragDropHandler.isDragging)
+        {
+            if (dragDropHandler.slotDraggedTo == null)
+            {
+                dragDropHandler.slotDraggedFrom.Drop();
+                dragDropHandler.isDragging = false;
+            }
+
+            else if (dragDropHandler.slotDraggedTo != null)
+            {
+                inventory.DragDrop (dragDropHandler.slotDraggedFrom, dragDropHandler.slotDraggedTo);
+                dragDropHandler.isDragging = false;
+            }
+        }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (dragDropHandler.isDragging)
+        {
+            dragDropHandler.slotDraggedTo = this;
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (dragDropHandler.isDragging)
+        {
+            dragDropHandler.slotDraggedTo = null;
+        }
     }
 }
