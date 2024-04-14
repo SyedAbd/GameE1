@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         cc = GetComponent<CharacterController>();
-        cam = GetComponent<CameraLook>();
+        cam = GetComponentInChildren<CameraLook>();
 
         gravityAcceleration = gravity * gravity;
         gravityAcceleration *= Time.deltaTime;
@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
             }
         }
         else
-            yVelocity += gravityAcceleration;
+            yVelocity -= gravityAcceleration;
 
         moveDir.y = yVelocity;
 
