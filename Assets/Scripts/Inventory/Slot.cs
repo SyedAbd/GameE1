@@ -52,4 +52,12 @@ public class Slot : MonoBehaviour
     {
         GetComponentInParent<InventoryManager>().DropItem(this);
     }
+
+    public void Clean()
+    {
+        data = null;
+        stackSize = 0;
+
+        UpdateSlot();
+    }
 }
