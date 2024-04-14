@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private CharacterController cc;
-    private Cameralook cameralook;
+    private CameraLook cam;
     [SerializeField] private float crouchSpeed = 2f;
     [SerializeField] private float walkSpeed = 4f;
     [SerializeField] private float runSpeed = 7f;
@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
         {
             moveDir *= runSpeed;
 
-            cam.transform.localPosition = Vector3.Lerp(cameralook,transform.localPosition, new Vector3(0,2,0),crouchTransitionSpeed * Time.deltaTime);
+            cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, new Vector3(0,2,0),crouchTransitionSpeed * Time.deltaTime);
             cc.height = Mathf.Lerp(cc.height, 2, crouchTransitionSpeed * Time.deltaTime);
             cc.center = Vector3.Lerp(cc.center,new Vector3(0,1,0),crouchTransitionSpeed * Time.deltaTime);
 
@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
         {
             moveDir *= crouchSpeed;
 
-            cam.transform.localPosition = Vector3.Lerp(cameralook, transform.localPosition, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
+            cam.transform.localPosition = Vector3.Lerp(cam. transform.localPosition, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
             cc.height = Mathf.Lerp(cc.height, 1.2f, crouchTransitionSpeed * Time.deltaTime);
             cc.center = Vector3.Lerp(cc.center, new Vector3(0, 0.59f, 0), crouchTransitionSpeed * Time.deltaTime);
         }
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         {
             moveDir *= walkSpeed;
 
-            cam.transform.localPosition = Vector3.Lerp(cameralook, transform.localPosition, new Vector3(0, 2, 0), crouchTransitionSpeed * Time.deltaTime);
+            cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, new Vector3(0, 2, 0), crouchTransitionSpeed * Time.deltaTime);
             cc.height = Mathf.Lerp(cc.height, 2, crouchTransitionSpeed * Time.deltaTime);
             cc.center = Vector3.Lerp(cc.center, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
         }
