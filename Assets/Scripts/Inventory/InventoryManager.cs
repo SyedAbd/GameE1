@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -48,29 +49,60 @@ public class InventoryManager : MonoBehaviour
     private void GenerateSlots()
     {
         List<Slot>inventorySlots_ = new List<Slot>();
-        List<Slot> allSlots_ = new List<Slot>();
+        
 
-        for (int i =0; i < allSlots.Length;i++)
-        {
-            allSlots_.Add(allSlots[i]);
-        }
-
+      
 
         for(int i = 0; i < inventorySize; i++)
         {
             Slot slot = Instantiate(slotTemplate.gameObject,contentHolder).GetComponent<Slot>();
 
             inventorySlots_.Add(slot);
-            allSlots_.Add(slot);
+            
         }
 
         inventorySlots = inventorySlots_.ToArray();
-        allSlots = allSlots_.ToArray();
+        
     }
 
     public void DragDrop(Slot from, Slot to)
     {
+        if (from.data!= to.data)
+        {
+            ItemSO data = to.data; 
+            int stackSize = to.stackSize;
+            to.data = from.data;
+            to.stackSize = from.stackSize;
 
+            from.data = data; 
+            from.stackSize = stackSize;
+        }
+
+        else
+        {
+            if (from.data.isStackable)
+            {
+                if (from.stackSize + to.stackSize > from.data.maxStack)
+                {
+                    int amountLeft = (from.stackSize + to.stackSize) - from.data.maxStack;
+                    from.stackSize = amountLeft;
+                    to.stackSize = to.data.maxStack;
+                }
+            }
+            else
+            {
+                ItemSO data = to.data;
+                int stackSize = to.stackSize;
+                to.data = from.data;
+                to.stackSize = from.stackSize;
+
+                from.data = data;
+                from.stackSize = stackSize;
+            }
+        }
+
+        from.UpdateSlot();
+        to.UpdateSlot();
     }
 
     public void AddItem(Pickup pickUp)

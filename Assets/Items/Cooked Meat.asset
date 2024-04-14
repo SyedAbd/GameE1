@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85122bc22050a9469cc18ec101fdefc, type: 3}
   m_Name: Cooked Meat
   m_EditorClassIdentifier: 
-  itemType: 0
-  icon: {fileID: 0}
-  itemName: New Item
-  description: New Item Description
-  isStackable: 0
-  maxStack: 1
-  healthChange: 10
-  hungerChange: 10
+  itemType: 1
+  icon: {fileID: 21300000, guid: fc95b30c360f7af4d80b7f19cf94c7d1, type: 3}
+  itemName: Cooked Meat
+  description: Cooked meat
+  isStackable: 1
+  maxStack: 5
+  healthChange: 0
+  hungerChange: 25
   thirstChange: 10

@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 423196768}
   - component: {fileID: 423196770}
   - component: {fileID: 423196771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3517,6 +3517,81 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &510801552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510801553}
+  - component: {fileID: 510801555}
+  - component: {fileID: 510801554}
+  m_Layer: 0
+  m_Name: DragDropIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &510801553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510801552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1819602304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &510801554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510801552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &510801555
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510801552}
+  m_CullTransparentMesh: 1
 --- !u!1 &522414381
 GameObject:
   m_ObjectHideFlags: 0
@@ -4153,6 +4228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93453205721108f4291aab3dfc327af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 55
   interactionRange: 2
   interactionKey: 101
 --- !u!1001 &602014960
@@ -11081,8 +11159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aeaedc0b228f3346acf848c3da00a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 56dc96d3e52f05c4493e013f4ced8f47, type: 2}
-  stackSize: 8
+  data: {fileID: 11400000, guid: aee534138b4143c4da6ade961caa07ed, type: 2}
+  stackSize: 1
 --- !u!1001 &1749957741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11405,6 +11483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1819602304}
   - component: {fileID: 1819602305}
+  - component: {fileID: 1819602306}
   m_Layer: 0
   m_Name: All Menus
   m_TagString: Untagged
@@ -11425,6 +11504,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 802851345}
+  - {fileID: 510801553}
   m_Father: {fileID: 505697063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11454,6 +11534,22 @@ MonoBehaviour:
     type: 3}
   contentHolder: {fileID: 1968134752}
   allSlots: []
+--- !u!114 &1819602306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819602303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f13780ef6dc51a4bb9203c1aa4e20cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDragging: 0
+  slotDraggedFrom: {fileID: 0}
+  slotDraggedTo: {fileID: 0}
+  dragDropIconImage: {fileID: 510801554}
 --- !u!1001 &1820127740
 PrefabInstance:
   m_ObjectHideFlags: 0

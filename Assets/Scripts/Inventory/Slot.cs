@@ -80,8 +80,11 @@ public class Slot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPoin
     {
         if (!dragDropHandler.isDragging)
         {
-            dragDropHandler.slotDraggedFrom = this; 
+            if (eventData.button == PointerEventData.InputButton.Left && !isEmpty)
+            { 
+            dragDropHandler.slotDraggedFrom = this;
             dragDropHandler.isDragging = true;
+            }
         }
     }
 
@@ -91,6 +94,7 @@ public class Slot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPoin
         {
             if (dragDropHandler.slotDraggedTo == null)
             {
+
                 dragDropHandler.slotDraggedFrom.Drop();
                 dragDropHandler.isDragging = false;
             }
