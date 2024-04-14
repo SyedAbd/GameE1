@@ -48,6 +48,12 @@ public class Slot : MonoBehaviour
         stackSize = stackSize_;
     }
 
+    public void AddStackAmount( int stackSize_)
+    {
+        
+        stackSize += stackSize_;
+    }
+
     public void Drop()
     {
         GetComponentInParent<InventoryManager>().DropItem(this);

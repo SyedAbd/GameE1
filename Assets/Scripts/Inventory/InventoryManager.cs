@@ -120,7 +120,7 @@ public class InventoryManager : MonoBehaviour
                 // IF IT CAN FIT THE PICKED UP AMOUNT
                 else
                 {
-                    stackableSlot.AddItemToSlot(pickUp.data, pickUp.stackSize);
+                    stackableSlot.AddStackAmount(pickUp.stackSize);
 
                     Destroy(pickUp.gameObject);
                 }
