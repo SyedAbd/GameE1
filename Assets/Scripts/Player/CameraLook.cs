@@ -14,7 +14,7 @@ public class CameraLook : MonoBehaviour
 
     [Header("Sensitivity")]
     [Range(1, 10)]
-    public float sensitivity = 5f;
+    public float sensitivity = 2f;
 
     [Header("Limits")]
     public float verticalTopLimit = -90f;
