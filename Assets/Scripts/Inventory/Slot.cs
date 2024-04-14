@@ -34,6 +34,9 @@ public class Slot : MonoBehaviour
         {
             isEmpty = false;
 
+            icon.sprite = data.icon;
+            stackText.text = $"x{stackSize}";
+
             icon.gameObject.SetActive(true);
             stackText.gameObject.SetActive(true);
         }
@@ -43,5 +46,10 @@ public class Slot : MonoBehaviour
     {
         data = data_;
         stackSize = stackSize_;
+    }
+
+    public void Drop()
+    {
+        GetComponentInParent<InventoryManager>().DropItem(this);
     }
 }
