@@ -25,8 +25,9 @@ public class Player : MonoBehaviour
         cc = GetComponent<CharacterController>();
         cam = GetComponentInChildren<CameraLook>();
 
-        gravityAcceleration = gravity * gravity;
-        gravityAcceleration *= Time.deltaTime;
+        //gravityAcceleration = gravity * gravity;
+        //gravityAcceleration *= Time.deltaTime;
+        Debug.Log(cc.isGrounded);
     }
 
     // Update is called once per frame
