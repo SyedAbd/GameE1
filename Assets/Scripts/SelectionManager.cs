@@ -28,11 +28,14 @@ public class SelectionManager : MonoBehaviour
                 interaction_text.text = selectionTransform.GetComponent<InteractableObject>().GetItemName();
                 interaction_Info_UI.SetActive(true);
             }
-            else
+            else //if there is a hit, but without an interactable Scripts.
             {
                 interaction_Info_UI.SetActive(false);
             }
-
+        }
+        else //if there is no hit at all.
+        {
+            interaction_Info_UI.SetActive(false);
         }
     }
 }
