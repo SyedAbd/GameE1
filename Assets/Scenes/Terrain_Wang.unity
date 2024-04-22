@@ -3405,7 +3405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &573416630
 Light:
   m_ObjectHideFlags: 0
@@ -7520,7 +7520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1169679080
 Transform:
   m_ObjectHideFlags: 0
@@ -8864,6 +8864,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d420a89deea184a889951ab7dabfb5dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  directionalLight: {fileID: 573416630}
+  dayDurationInseconds: 24
+  currentHour: 0
+  timeMappings:
+  - phaseName: NIght
+    hour: 0
+    skyboxMaterial: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
+  - phaseName: NightToSunrise
+    hour: 5
+    skyboxMaterial: {fileID: 2100000, guid: 4f19ecf11715d4ea7b9ff17b992980a2, type: 2}
+  - phaseName: Sunrise
+    hour: 7
+    skyboxMaterial: {fileID: 2100000, guid: 3a253cab252a165478338fba0f03e63a, type: 2}
+  - phaseName: SunriseToDay
+    hour: 9
+    skyboxMaterial: {fileID: 2100000, guid: 6d4bb8364acea406b880b16cc30a441a, type: 2}
+  - phaseName: Day
+    hour: 11
+    skyboxMaterial: {fileID: 2100000, guid: 97fca95f33987e548be9dd7c03cb1a96, type: 2}
+  - phaseName: DayToSunset
+    hour: 16
+    skyboxMaterial: {fileID: 2100000, guid: 631256c0415f14e549ef296e07e40567, type: 2}
+  - phaseName: Sunset
+    hour: 18
+    skyboxMaterial: {fileID: 2100000, guid: de1d750fefeeac642bf9b11a3978ccf5, type: 2}
+  - phaseName: SunsetToNight
+    hour: 20
+    skyboxMaterial: {fileID: 2100000, guid: 35f89ce5d49584fa1acd6139bbdb97f1, type: 2}
+  - phaseName: Night
+    hour: 22
+    skyboxMaterial: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
 --- !u!4 &1468616252
 Transform:
   m_ObjectHideFlags: 0
@@ -8872,7 +8903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468616250}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8913,9 +8944,9 @@ RectTransform:
   - {fileID: 195355461}
   m_Father: {fileID: 1518802597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 533, y: -177}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 253, y: 125.999985}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1489064879
@@ -11260,7 +11291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1807401261
 Transform:
   m_ObjectHideFlags: 0
@@ -12904,7 +12935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2036011189
 Transform:
   m_ObjectHideFlags: 0
@@ -13449,6 +13480,7 @@ SceneRoots:
   - {fileID: 1180650280}
   - {fileID: 317930765}
   - {fileID: 573416631}
+  - {fileID: 1468616252}
   - {fileID: 1591803924}
   - {fileID: 1954795910}
   - {fileID: 2040171462}
@@ -13477,4 +13509,3 @@ SceneRoots:
   - {fileID: 1870612761}
   - {fileID: 496780600}
   - {fileID: 989075113}
-  - {fileID: 1468616252}
