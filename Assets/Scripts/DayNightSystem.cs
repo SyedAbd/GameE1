@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
@@ -10,12 +11,13 @@ public class DayNightSystem : MonoBehaviour
 
     public float dayDurationInseconds = 24.0f; //Adjust the duration of a full day in seconds
     public int currentHour;
-    float currentTimeOfDay = 0.0f;
+    float currentTimeOfDay = 0.35f; //equals 8 in the morning
 
     public List<SkyboxTimeMapping> timeMappings;
     float blendedValue = 0.0f;
+    bool lockNextDayTrigger = false;
 
-
+    public TextMeshProUGUI timeUI;
 
     // Update is called once per frame
     void Update()
@@ -24,6 +26,8 @@ public class DayNightSystem : MonoBehaviour
         currentTimeOfDay %= 1;
 
         currentHour = Mathf.FloorToInt(currentTimeOfDay * 24);
+
+        timeUI.text = $"{currentHour}:00";
 
         directionalLight.transform.rotation = Quaternion.Euler(new Vector3((currentTimeOfDay * 360) - 90, 170, 0));
 
@@ -52,15 +56,26 @@ public class DayNightSystem : MonoBehaviour
 
                         currentSkybox.SetFloat("_TransitionFactor", blendedValue);
                     }
+                    else
+                    {
+                        blendedValue = 0;
+                    }
                 }
-                else
-                {
-                    blendedValue = 0;
-                }
-            }
 
-            break;
+                break;
+            }
         }
+
+        if (currentHour == 0 && lockNextDayTrigger == false)
+        {
+            TimeManager.Instance.TriggerNextDay();
+            lockNextDayTrigger = true;
+        }
+        if (currentHour != 0)
+        {
+            lockNextDayTrigger = false;
+        }
+
         if (currentSkybox != null)
         {
             RenderSettings.skybox = currentSkybox;
