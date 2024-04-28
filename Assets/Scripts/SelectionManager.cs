@@ -23,6 +23,18 @@ public class SelectionManager : MonoBehaviour
         {
             var selectionTransform = hit.transform;
 
+            NPC npc = selectionTransform.GetComponent<NPC>();
+            if (npc && npc.playerInRange)
+            {
+                interaction_text.text = "Talk";
+                interaction_Info_UI.SetActive(true);
+            }
+            else
+            {
+                interaction_text.text = "";
+                interaction_Info_UI.SetActive(false);
+            }
+
             if (selectionTransform.GetComponent<InteractableObject>())
             {
                 interaction_text.text = selectionTransform.GetComponent<InteractableObject>().GetItemName();
@@ -30,7 +42,7 @@ public class SelectionManager : MonoBehaviour
             }
             else //if there is a hit, but without an interactable Scripts.
             {
-                interaction_Info_UI.SetActive(false);
+                //interaction_Info_UI.SetActive(false);
             }
         }
         else //if there is no hit at all.
