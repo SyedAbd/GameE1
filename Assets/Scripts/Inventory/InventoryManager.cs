@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class InventoryManager : MonoBehaviour
 {
     public bool opened;
     public KeyCode inventoryKey = KeyCode.Tab;
 
-
     [Header("Settings")]
     public int inventorySize = 24;
+    public int hotbarSize = 6;
 
 
     [Header("Refs")]
@@ -18,19 +17,36 @@ public class InventoryManager : MonoBehaviour
     public Transform dropPos;
     public GameObject slotTemplate;
     public Transform contentHolder;
+    public Transform hotbarContentHolder;
 
 
     private Slot[] inventorySlots;
-    [SerializeField]private Slot[] allSlots;
+    private Slot[] hotbarSlots;
 
 
     private void Start()
     {
+        GenerateHotBarSlots();
         GenerateSlots();
+        
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            hotbarSlots[0].Try_Use();
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+            hotbarSlots[1].Try_Use();
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+            hotbarSlots[2].Try_Use();
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+            hotbarSlots[3].Try_Use();
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+            hotbarSlots[4].Try_Use();
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+            hotbarSlots[5].Try_Use();
+
+
         if (Input.GetKeyDown(inventoryKey))
             opened = !opened;
 
@@ -63,6 +79,25 @@ public class InventoryManager : MonoBehaviour
 
         inventorySlots = inventorySlots_.ToArray();
         
+    }
+
+    private void GenerateHotBarSlots()
+    {
+        List<Slot> inventorySlots_ = new List<Slot>();
+        List<Slot> hotbarList = new List<Slot>();
+
+
+        for (int i = 0; i < hotbarSize; i++)
+        {
+            Slot slot = Instantiate(slotTemplate.gameObject, hotbarContentHolder).GetComponent<Slot>();
+
+            inventorySlots_.Add(slot);
+            hotbarList.Add(slot);
+        }
+
+        inventorySlots = inventorySlots_.ToArray();
+        hotbarSlots = hotbarList.ToArray();
+
     }
 
     public void DragDrop(Slot from, Slot to)
