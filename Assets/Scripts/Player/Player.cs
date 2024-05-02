@@ -18,8 +18,9 @@ public class Player : MonoBehaviour
 
     private bool IsMovementEnabled = true;
 
-
-
+    private Vector3 lastPosition = new Vector3(0f, 0f, 0f);
+    private bool isMoving;
+    //private bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -108,5 +109,17 @@ public class Player : MonoBehaviour
         moveDir *= Time.deltaTime;
 
         cc.Move(moveDir);
+
+        if (lastPosition != gameObject.transform.position)
+        {
+            isMoving = true;
+            SoundManager.Instance.PlaySound(SoundManager.Instance.grassWalkSound);
+        }
+        else
+        {
+            isMoving = false;
+            SoundManager.Instance.grassWalkSound.Stop();
+        }
+        lastPosition = gameObject.transform.position;
     }
 }
