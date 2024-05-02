@@ -25,8 +25,8 @@ public class Slot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPoin
 
     private void Start()
     {
-        dragDropHandler = GetComponentInParent<DragDropHandler>();
-        inventory = GetComponentInParent<InventoryManager>();
+        dragDropHandler = GetComponentInParent<Player>().GetComponentInChildren<DragDropHandler>();
+        inventory = GetComponentInParent<Player>().GetComponentInChildren<InventoryManager>();
 
         UpdateSlot();
     }
@@ -137,7 +137,7 @@ public class Slot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPoin
         stats.hunger += data.hungerChange;
         stats.thirst += data.thirstChange;
 
-        stackSize--;
+        stackSize --;
         UpdateSlot();
     }
 

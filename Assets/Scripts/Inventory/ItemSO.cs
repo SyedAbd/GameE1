@@ -21,6 +21,8 @@ public class ItemSO : ScriptableObject
     public float healthChange = 10f; 
     public float hungerChange = 10f; 
     public float thirstChange = 10f;
+
+   
 }
 
 
