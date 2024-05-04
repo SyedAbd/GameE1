@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: c6ee2dc302a358f41894dcc04b207212
+timeCreated: 1541455842
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Deer Mesh
+    100004: Eye Left
+    100006: Eye Right
+    100008: Deer
+    100010: Deer Footsteps
+    100012: Deer Head
+    100014: Deer HeadNub
+    100016: Deer Jaw
+    100018: Deer JawNub
+    100020: Deer L Calf
+    100022: Deer L Clavicle
+    100024: Deer L Ear
+    100026: Deer L Ear02
+    100028: Deer L EarNub
+    100030: Deer L Eyebrow
+    100032: Deer L EyebrowNub
+    100034: Deer L Finger0
+    100036: Deer L Finger0Nub
+    100038: Deer L Finger1
+    100040: Deer L Finger1Nub
+    100042: Deer L Foot
+    100044: Deer L Forearm
+    100046: Deer L Hand
+    100048: Deer L Lower Eyelid
+    100050: Deer L Lower EyelidNub
+    100052: Deer L Lower Mouth
+    100054: Deer L Lower MouthNub
+    100056: Deer L Mouth
+    100058: Deer L MouthNub
+    100060: Deer L Thigh
+    100062: Deer L Toe0
+    100064: Deer L Toe0Nub
+    100066: Deer L Upper Eyelid
+    100068: Deer L Upper EyelidNub
+    100070: Deer L Upper Mouth
+    100072: Deer L Upper MouthNub
+    100074: Deer L UpperArm
+    100076: Deer Neck
+    100078: Deer Nose
+    100080: Deer NoseNub
+    100082: Deer Pelvis
+    100084: Deer R Calf
+    100086: Deer R Clavicle
+    100088: Deer R Ear
+    100090: Deer R Ear02
+    100092: Deer R EarNub
+    100094: Deer R Eyebrow
+    100096: Deer R EyebrowNub
+    100098: Deer R Finger0
+    100100: Deer R Finger0Nub
+    100102: Deer R Finger1
+    100104: Deer R Finger1Nub
+    100106: Deer R Foot
+    100108: Deer R Forearm
+    100110: Deer R Hand
+    100112: Deer R Lower Eyelid
+    100114: Deer R Lower EyelidNub
+    100116: Deer R Lower Mouth
+    100118: Deer R Lower MouthNub
+    100120: Deer R Mouth
+    100122: Deer R MouthNub
+    100124: Deer R Thigh
+    100126: Deer R Toe0
+    100128: Deer R Toe0Nub
+    100130: Deer R Upper Eyelid
+    100132: Deer R Upper EyelidNub
+    100134: Deer R Upper Mouth
+    100136: Deer R Upper MouthNub
+    100138: Deer R UpperArm
+    100140: Deer Spine
+    100142: Deer Spine1
+    100144: Deer Spine2
+    100146: Deer Tail
+    100148: Deer Tail02
+    100150: Deer TailNub
+    100152: Deer Tongue
+    100154: Deer Tongue02
+    100156: Deer Tongue03
+    100158: Deer TongueNub
+    400000: //RootNode
+    400002: Deer Mesh
+    400004: Eye Left
+    400006: Eye Right
+    400008: Deer
+    400010: Deer Footsteps
+    400012: Deer Head
+    400014: Deer HeadNub
+    400016: Deer Jaw
+    400018: Deer JawNub
+    400020: Deer L Calf
+    400022: Deer L Clavicle
+    400024: Deer L Ear
+    400026: Deer L Ear02
+    400028: Deer L EarNub
+    400030: Deer L Eyebrow
+    400032: Deer L EyebrowNub
+    400034: Deer L Finger0
+    400036: Deer L Finger0Nub
+    400038: Deer L Finger1
+    400040: Deer L Finger1Nub
+    400042: Deer L Foot
+    400044: Deer L Forearm
+    400046: Deer L Hand
+    400048: Deer L Lower Eyelid
+    400050: Deer L Lower EyelidNub
+    400052: Deer L Lower Mouth
+    400054: Deer L Lower MouthNub
+    400056: Deer L Mouth
+    400058: Deer L MouthNub
+    400060: Deer L Thigh
+    400062: Deer L Toe0
+    400064: Deer L Toe0Nub
+    400066: Deer L Upper Eyelid
+    400068: Deer L Upper EyelidNub
+    400070: Deer L Upper Mouth
+    400072: Deer L Upper MouthNub
+    400074: Deer L UpperArm
+    400076: Deer Neck
+    400078: Deer Nose
+    400080: Deer NoseNub
+    400082: Deer Pelvis
+    400084: Deer R Calf
+    400086: Deer R Clavicle
+    400088: Deer R Ear
+    400090: Deer R Ear02
+    400092: Deer R EarNub
+    400094: Deer R Eyebrow
+    400096: Deer R EyebrowNub
+    400098: Deer R Finger0
+    400100: Deer R Finger0Nub
+    400102: Deer R Finger1
+    400104: Deer R Finger1Nub
+    400106: Deer R Foot
+    400108: Deer R Forearm
+    400110: Deer R Hand
+    400112: Deer R Lower Eyelid
+    400114: Deer R Lower EyelidNub
+    400116: Deer R Lower Mouth
+    400118: Deer R Lower MouthNub
+    400120: Deer R Mouth
+    400122: Deer R MouthNub
+    400124: Deer R Thigh
+    400126: Deer R Toe0
+    400128: Deer R Toe0Nub
+    400130: Deer R Upper Eyelid
+    400132: Deer R Upper EyelidNub
+    400134: Deer R Upper Mouth
+    400136: Deer R Upper MouthNub
+    400138: Deer R UpperArm
+    400140: Deer Spine
+    400142: Deer Spine1
+    400144: Deer Spine2
+    400146: Deer Tail
+    400148: Deer Tail02
+    400150: Deer TailNub
+    400152: Deer Tongue
+    400154: Deer Tongue02
+    400156: Deer Tongue03
+    400158: Deer TongueNub
+    2100000: Deer
+    2300000: //RootNode
+    2300002: Deer Mesh
+    2300004: Eye Left
+    2300006: Eye Right
+    3300000: //RootNode
+    3300002: Deer Mesh
+    3300004: Eye Left
+    3300006: Eye Right
+    4300000: Deer Mesh
+    4300002: Eye Left
+    4300004: Eye Right
+    9500000: //RootNode
+    13700000: Deer Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deer
+    second: {fileID: 2100000, guid: 514f707b1d5fadb459bcce3d8c73b70a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: 511a267d6bcb3584fa6250d535db36d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 4a2cba4c8111fff4ca206f74c6e38130, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Deer Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Deer(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000056566813, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer
+      parentName: Deer(Clone)
+      position: {x: -0.0000000013225739, y: 0.4308119, z: -2.5104346e-10}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer Pelvis
+      parentName: Deer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Deer L Thigh
+      parentName: Deer Pelvis
+      position: {x: 0.000000114440915, y: 0.00000013706621, z: 0.0852573}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Deer L Calf
+      parentName: Deer L Thigh
+      position: {x: -0.20180996, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Deer L Foot
+      parentName: Deer L Calf
+      position: {x: -0.17415912, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer L Toe0
+      parentName: Deer L Foot
+      position: {x: -0.047729988, y: 0.07728287, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Deer R Thigh
+      parentName: Deer Pelvis
+      position: {x: -0.000000114440915, y: -0.00000009940345, z: -0.0852573}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer R Calf
+      parentName: Deer R Thigh
+      position: {x: -0.20180994, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Foot
+      parentName: Deer R Calf
+      position: {x: -0.17415912, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Deer R Toe0
+      parentName: Deer R Foot
+      position: {x: -0.047729988, y: 0.07728286, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Deer Spine
+      parentName: Deer Pelvis
+      position: {x: -0.06034889, y: -0.000081972816, z: 0.00000008380546}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Deer Spine1
+      parentName: Deer Spine
+      position: {x: -0.10391086, y: -0.000080380436, z: -2.2297171e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Spine2
+      parentName: Deer Spine1
+      position: {x: -0.10392906, y: -0.000082759856, z: -2.2955646e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer L Clavicle
+      parentName: Deer Spine2
+      position: {x: -0.059627607, y: -0.004575491, z: 0.021188144}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Deer L UpperArm
+      parentName: Deer L Clavicle
+      position: {x: -0.07282714, y: -0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Forearm
+      parentName: Deer L UpperArm
+      position: {x: -0.1588689, y: -0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Deer L Hand
+      parentName: Deer L Forearm
+      position: {x: -0.13373484, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Finger0
+      parentName: Deer L Hand
+      position: {x: -0.04165342, y: 0.00048538207, z: -0.02300478}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer L Finger1
+      parentName: Deer L Hand
+      position: {x: -0.060870875, y: 0.00078964233, z: 0.0033977698}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Deer Neck
+      parentName: Deer Spine2
+      position: {x: -0.10895538, y: 0.00377285, z: 0.000000005897309}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Head
+      parentName: Deer Neck
+      position: {x: -0.10151291, y: 0, z: -1.8189894e-14}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Jaw
+      parentName: Deer Head
+      position: {x: -0.1577336, y: 0.08790643, z: 0.00000011976543}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Deer L Lower Mouth
+      parentName: Deer Jaw
+      position: {x: -0.15094978, y: 0.008617782, z: -0.012919787}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Lower Mouth
+      parentName: Deer Jaw
+      position: {x: -0.1509497, y: 0.008617554, z: 0.01291983}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Deer Tongue
+      parentName: Deer Jaw
+      position: {x: -0.07099426, y: 0.034978256, z: 0.00000014683347}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: Deer Tongue02
+      parentName: Deer Tongue
+      position: {x: -0.046621416, y: -0.00003601074, z: -1.13504935e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Tongue03
+      parentName: Deer Tongue02
+      position: {x: -0.046613503, y: -0.000037078855, z: 0.0000004638161}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Deer L Ear
+      parentName: Deer Head
+      position: {x: -0.37992126, y: -0.11079231, z: 0.21848999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer L Ear02
+      parentName: Deer L Ear
+      position: {x: -0.20860298, y: -0.00016495705, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Deer L Eyebrow
+      parentName: Deer Head
+      position: {x: -0.25541434, y: 0.043436278, z: 0.025896925}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer L Lower Eyelid
+      parentName: Deer Head
+      position: {x: -0.20719917, y: 0.10287514, z: 0.10708862}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Deer L Mouth
+      parentName: Deer Head
+      position: {x: -0.2042285, y: 0.055782355, z: 0.014484578}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Deer L Upper Eyelid
+      parentName: Deer Head
+      position: {x: -0.20866759, y: 0.098472565, z: 0.10709842}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Upper Mouth
+      parentName: Deer Head
+      position: {x: -0.099748306, y: 0.26925528, z: -0.0011637253}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: Deer Nose
+      parentName: Deer Head
+      position: {x: -0.10034813, y: 0.33956248, z: 0.00000046141767}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer R Ear
+      parentName: Deer Head
+      position: {x: -0.37992126, y: -0.11079112, z: -0.21849054}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer R Ear02
+      parentName: Deer R Ear
+      position: {x: -0.2086029, y: -0.00016497611, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Deer R Eyebrow
+      parentName: Deer Head
+      position: {x: -0.25541434, y: 0.043436427, z: -0.025896668}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Deer R Lower Eyelid
+      parentName: Deer Head
+      position: {x: -0.20719917, y: 0.102875724, z: -0.10708807}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Deer R Mouth
+      parentName: Deer Head
+      position: {x: -0.2042285, y: 0.055782456, z: -0.0144842705}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Deer R Upper Eyelid
+      parentName: Deer Head
+      position: {x: -0.20866759, y: 0.09847315, z: -0.107097864}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Deer R Upper Mouth
+      parentName: Deer Head
+      position: {x: -0.099748306, y: 0.26925525, z: 0.0011652332}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Eye Left
+      parentName: Deer Head
+      position: {x: -0.20451461, y: 0.10933509, z: 0.10365576}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: Eye Right
+      parentName: Deer Head
+      position: {x: -0.20451468, y: 0.10933527, z: -0.103659734}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: Deer R Clavicle
+      parentName: Deer Spine2
+      position: {x: -0.059627607, y: -0.004575367, z: -0.021188173}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Deer R UpperArm
+      parentName: Deer R Clavicle
+      position: {x: -0.07282714, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Deer R Forearm
+      parentName: Deer R UpperArm
+      position: {x: -0.1588689, y: 0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Hand
+      parentName: Deer R Forearm
+      position: {x: -0.13373487, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Deer R Finger0
+      parentName: Deer R Hand
+      position: {x: -0.041653384, y: 0.00048542023, z: 0.023004798}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Deer R Finger1
+      parentName: Deer R Hand
+      position: {x: -0.060870893, y: 0.00078960415, z: -0.0033977507}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Deer Tail
+      parentName: Deer Pelvis
+      position: {x: -0.0613591, y: -0.06745178, z: 0.00000027400984}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: Deer Tail02
+      parentName: Deer Tail
+      position: {x: -0.08473514, y: -0.00006744385, z: -1.8713762e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer Mesh
+      parentName: Deer(Clone)
+      position: {x: -0, y: 0, z: 4.2829468e-10}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

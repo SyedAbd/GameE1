@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 5c6f1f49e4a0b044691a13536c13268c
+timeCreated: 1544546470
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Eye Left
+    100002: Eye Right
+    100004: Moose
+    100006: Moose Head
+    100008: Moose Jaw
+    100010: //RootNode
+    100012: Moose L Calf
+    100014: Moose L Clavicle
+    100016: Moose L Ear
+    100018: Moose L Ear02
+    100020: Moose L Eyebrow
+    100022: Moose L Finger0
+    100024: Moose L Foot
+    100026: Moose L Forearm
+    100028: Moose L Hand
+    100030: Moose L Lower Eyelid
+    100032: Moose L Lower Mouth
+    100034: Moose L Mouth
+    100036: Moose L Thigh
+    100038: Moose L Toe0
+    100040: Moose L Upper Eyelid
+    100042: Moose L Upper Mouth
+    100044: Moose L UpperArm
+    100046: Moose Neck
+    100048: Moose Pelvis
+    100050: Moose R Calf
+    100052: Moose R Clavicle
+    100054: Moose R Ear
+    100056: Moose R Ear02
+    100058: Moose R Eyebrow
+    100060: Moose R Finger0
+    100062: Moose R Foot
+    100064: Moose R Forearm
+    100066: Moose R Hand
+    100068: Moose R Lower Eyelid
+    100070: Moose R Lower Mouth
+    100072: Moose R Mouth
+    100074: Moose R Thigh
+    100076: Moose R Toe0
+    100078: Moose R Upper Eyelid
+    100080: Moose R Upper Mouth
+    100082: Moose R UpperArm
+    100084: Moose Spine
+    100086: Moose Spine1
+    100088: Moose Spine2
+    100090: Moose Tail
+    100092: Moose Tongue
+    100094: Moose Tongue02
+    100096: Moose Tongue03
+    400000: Eye Left
+    400002: Eye Right
+    400004: Moose
+    400006: Moose Head
+    400008: Moose Jaw
+    400010: //RootNode
+    400012: Moose L Calf
+    400014: Moose L Clavicle
+    400016: Moose L Ear
+    400018: Moose L Ear02
+    400020: Moose L Eyebrow
+    400022: Moose L Finger0
+    400024: Moose L Foot
+    400026: Moose L Forearm
+    400028: Moose L Hand
+    400030: Moose L Lower Eyelid
+    400032: Moose L Lower Mouth
+    400034: Moose L Mouth
+    400036: Moose L Thigh
+    400038: Moose L Toe0
+    400040: Moose L Upper Eyelid
+    400042: Moose L Upper Mouth
+    400044: Moose L UpperArm
+    400046: Moose Neck
+    400048: Moose Pelvis
+    400050: Moose R Calf
+    400052: Moose R Clavicle
+    400054: Moose R Ear
+    400056: Moose R Ear02
+    400058: Moose R Eyebrow
+    400060: Moose R Finger0
+    400062: Moose R Foot
+    400064: Moose R Forearm
+    400066: Moose R Hand
+    400068: Moose R Lower Eyelid
+    400070: Moose R Lower Mouth
+    400072: Moose R Mouth
+    400074: Moose R Thigh
+    400076: Moose R Toe0
+    400078: Moose R Upper Eyelid
+    400080: Moose R Upper Mouth
+    400082: Moose R UpperArm
+    400084: Moose Spine
+    400086: Moose Spine1
+    400088: Moose Spine2
+    400090: Moose Tail
+    400092: Moose Tongue
+    400094: Moose Tongue02
+    400096: Moose Tongue03
+    2100000: Eyes
+    2100002: Eye Shine
+    2300000: Eye Left
+    2300002: Eye Right
+    3300000: Eye Left
+    3300002: Eye Right
+    4300000: Eye Right
+    4300002: Eye Left
+    7400000: Moose Jump Up
+    7400002: Moose Fall
+    7400004: Moose Land
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Moose Jump Up
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Moose
+        weight: 1
+      - path: Moose/Moose Pelvis
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot/Moose L Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot/Moose R Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand/Moose L Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Left
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Right
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose L Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose R Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02/Moose Tongue03
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear/Moose L Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear/Moose R Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand/Moose R Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Tail
+        weight: 1
+      - path: Moose Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 955800c297baf3e4fb379f96002458a3, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Moose Fall
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Moose
+        weight: 1
+      - path: Moose/Moose Pelvis
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot/Moose L Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot/Moose R Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand/Moose L Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Left
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Right
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose L Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose R Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02/Moose Tongue03
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear/Moose L Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear/Moose R Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand/Moose R Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Tail
+        weight: 1
+      - path: Moose Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 955800c297baf3e4fb379f96002458a3, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Moose Land
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Moose
+        weight: 1
+      - path: Moose/Moose Pelvis
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose L Thigh/Moose L Calf/Moose L Foot/Moose L Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose R Thigh/Moose R Calf/Moose R Foot/Moose R Toe0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose L Clavicle/Moose
+          L UpperArm/Moose L Forearm/Moose L Hand/Moose L Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Left
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Eye Right
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose L Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose R Lower Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose Jaw/Moose Tongue/Moose Tongue02/Moose Tongue03
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Ear/Moose L Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose L Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Ear/Moose R Ear02
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Eyebrow
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Lower Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Eyelid
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose Neck/Moose
+          Head/Moose R Upper Mouth
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Spine1/Moose Spine2/Moose R Clavicle/Moose
+          R UpperArm/Moose R Forearm/Moose R Hand/Moose R Finger0
+        weight: 1
+      - path: Moose/Moose Pelvis/Moose Spine/Moose Tail
+        weight: 1
+      - path: Moose Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 955800c297baf3e4fb379f96002458a3, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Moose Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Moose Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Moose(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000053785783, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Moose
+      parentName: Moose(Clone)
+      position: {x: -0, y: 0.5212375, z: -0.000000004678955}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Moose Pelvis
+      parentName: Moose
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Moose Spine
+      parentName: Moose Pelvis
+      position: {x: -0.065089986, y: -0.019650642, z: 0.00000014427795}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000006}
+    - name: Moose Spine1
+      parentName: Moose Spine
+      position: {x: -0.16455188, y: -0.00013101696, z: -3.6338632e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Moose Spine2
+      parentName: Moose Spine1
+      position: {x: -0.16455208, y: -0.0001310134, z: -3.6338632e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1}
+    - name: Moose Neck
+      parentName: Moose Spine2
+      position: {x: -0.16548096, y: -0.022929542, z: -0.000000032389014}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000005}
+    - name: Moose Head
+      parentName: Moose Neck
+      position: {x: -0.2306623, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Eye Left
+      parentName: Moose Head
+      position: {x: -0.2670137, y: 0.21061489, z: -0.09702956}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Eye Right
+      parentName: Moose Head
+      position: {x: -0.2670137, y: 0.21061458, z: 0.09703307}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Moose L Upper Eyelid
+      parentName: Moose Head
+      position: {x: -0.257164, y: 0.2023323, z: 0.09341336}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.000001}
+    - name: Moose L Eyebrow
+      parentName: Moose Head
+      position: {x: -0.31887054, y: 0.16133003, z: 0.04317264}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000007, z: 1.0000005}
+    - name: Moose L Lower Eyelid
+      parentName: Moose Head
+      position: {x: -0.26433226, y: 0.20761162, z: 0.09092022}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Moose L Mouth
+      parentName: Moose Head
+      position: {x: -0.11846222, y: 0.23649578, z: -0.13464311}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: Moose L Upper Mouth
+      parentName: Moose Head
+      position: {x: -0.02184845, y: 0.51700765, z: 0.045649562}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000004}
+    - name: Moose L Ear
+      parentName: Moose Head
+      position: {x: -0.19905074, y: -0.10696101, z: 0.10813125}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Moose L Ear02
+      parentName: Moose L Ear
+      position: {x: -0.12340282, y: -0.00009744644, z: 0.0000021362305}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: Moose Jaw
+      parentName: Moose Head
+      position: {x: -0.0764653, y: 0.19334365, z: 0.00000026313447}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999994, y: 0.99999964, z: 0.9999994}
+    - name: Moose L Lower Mouth
+      parentName: Moose Jaw
+      position: {x: -0.2919786, y: -0.050048675, z: 0.04643526}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000005}
+    - name: Moose R Lower Mouth
+      parentName: Moose Jaw
+      position: {x: -0.2919786, y: -0.050048444, z: -0.046435535}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999996}
+    - name: Moose Tongue
+      parentName: Moose Jaw
+      position: {x: -0.00146286, y: 0.009231567, z: 0.0000000339956}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999994}
+    - name: Moose Tongue02
+      parentName: Moose Tongue
+      position: {x: -0.1234153, y: -0.0000982666, z: -2.727029e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999997}
+    - name: Moose Tongue03
+      parentName: Moose Tongue02
+      position: {x: -0.123415336, y: -0.00009819031, z: -2.727029e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000004}
+    - name: Moose R Mouth
+      parentName: Moose Head
+      position: {x: -0.11846222, y: 0.23649502, z: 0.1346445}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999988}
+    - name: Moose R Upper Eyelid
+      parentName: Moose Head
+      position: {x: -0.257164, y: 0.20233284, z: -0.09341223}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999833, y: 0.9999987, z: 0.9999985}
+    - name: Moose R Eyebrow
+      parentName: Moose Head
+      position: {x: -0.31887054, y: 0.16133025, z: -0.043171763}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999984, y: 0.9999982, z: 0.99999845}
+    - name: Moose R Lower Eyelid
+      parentName: Moose Head
+      position: {x: -0.26433226, y: 0.20761214, z: -0.09091906}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999989, y: 0.9999995, z: 0.9999984}
+    - name: Moose R Upper Mouth
+      parentName: Moose Head
+      position: {x: -0.02184845, y: 0.51700795, z: -0.04564671}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 0.9999989, z: 0.9999981}
+    - name: Moose R Ear
+      parentName: Moose Head
+      position: {x: -0.19905074, y: -0.1069604, z: -0.108131826}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999875, y: 0.99999887, z: 0.9999989}
+    - name: Moose R Ear02
+      parentName: Moose R Ear
+      position: {x: -0.12340286, y: -0.00009744644, z: -0.0000022888182}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 0.9999999, z: 0.99999994}
+    - name: Moose L Clavicle
+      parentName: Moose Spine2
+      position: {x: -0.12972443, y: -0.0031612515, z: 0.0332272}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000002}
+    - name: Moose L UpperArm
+      parentName: Moose L Clavicle
+      position: {x: -0.12230834, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999887, y: 0.9999992, z: 0.9999995}
+    - name: Moose L Forearm
+      parentName: Moose L UpperArm
+      position: {x: -0.25785676, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000005}
+    - name: Moose L Hand
+      parentName: Moose L Forearm
+      position: {x: -0.23160417, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 0.9999999, y: 1.0000006, z: 0.99999994}
+    - name: Moose L Finger0
+      parentName: Moose L Hand
+      position: {x: -0.13167457, y: 0, z: 0}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 0.9999993, y: 1.0000007, z: 1.0000008}
+    - name: Moose R Clavicle
+      parentName: Moose Spine2
+      position: {x: -0.12972443, y: -0.0031610632, z: -0.03322722}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 0.99999964, y: 0.99999905, z: 0.9999989}
+    - name: Moose R UpperArm
+      parentName: Moose R Clavicle
+      position: {x: -0.12230832, y: -0.0000000023841857, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000006}
+    - name: Moose R Forearm
+      parentName: Moose R UpperArm
+      position: {x: -0.25785667, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Moose R Hand
+      parentName: Moose R Forearm
+      position: {x: -0.2316041, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000004, z: 0.9999997}
+    - name: Moose R Finger0
+      parentName: Moose R Hand
+      position: {x: -0.13167459, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000006}
+    - name: Moose Tail
+      parentName: Moose Spine
+      position: {x: -0.03680351, y: -0.13938709, z: -0.00000029168982}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Moose L Thigh
+      parentName: Moose Pelvis
+      position: {x: 0.00000019073485, y: 0.00000019893719, z: 0.12702131}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
+    - name: Moose L Calf
+      parentName: Moose L Thigh
+      position: {x: -0.2375612, y: -0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 0.9999999, z: 1}
+    - name: Moose L Foot
+      parentName: Moose L Calf
+      position: {x: -0.21498823, y: -0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.9999998}
+    - name: Moose L Toe0
+      parentName: Moose L Foot
+      position: {x: -0.05058328, y: 0.14562224, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000002}
+    - name: Moose R Thigh
+      parentName: Moose Pelvis
+      position: {x: -0.00000019073485, y: -0.00000015336919, z: -0.12702131}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.0000012}
+    - name: Moose R Calf
+      parentName: Moose R Thigh
+      position: {x: -0.23756123, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: Moose R Foot
+      parentName: Moose R Calf
+      position: {x: -0.21498825, y: 0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000006}
+    - name: Moose R Toe0
+      parentName: Moose R Foot
+      position: {x: -0.05058328, y: 0.14562221, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000013, y: 1, z: 1.0000006}
+    - name: Moose Mesh
+      parentName: Moose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: aac38fe79c31122439963e7620da0b25,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

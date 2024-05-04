@@ -1,0 +1,1361 @@
+fileFormatVersion: 2
+guid: 36a5fef39529f8f428608505597586ba
+timeCreated: 1541527443
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Deer
+    100002: Deer Head
+    100004: Deer Jaw
+    100006: Deer L Calf
+    100008: Deer L Clavicle
+    100010: Deer L Ear
+    100012: Deer L Ear02
+    100014: Deer L Eyebrow
+    100016: Deer L Finger0
+    100018: Deer L Finger1
+    100020: Deer L Foot
+    100022: Deer L Forearm
+    100024: Deer L Hand
+    100026: Deer L Lower Eyelid
+    100028: Deer L Lower Mouth
+    100030: Deer L Mouth
+    100032: Deer L Thigh
+    100034: Deer L Toe0
+    100036: Deer L Upper Eyelid
+    100038: Deer L Upper Mouth
+    100040: Deer L UpperArm
+    100042: //RootNode
+    100044: Deer Neck
+    100046: Deer Nose
+    100048: Deer Pelvis
+    100050: Deer R Calf
+    100052: Deer R Clavicle
+    100054: Deer R Ear
+    100056: Deer R Ear02
+    100058: Deer R Eyebrow
+    100060: Deer R Finger0
+    100062: Deer R Finger1
+    100064: Deer R Foot
+    100066: Deer R Forearm
+    100068: Deer R Hand
+    100070: Deer R Lower Eyelid
+    100072: Deer R Lower Mouth
+    100074: Deer R Mouth
+    100076: Deer R Thigh
+    100078: Deer R Toe0
+    100080: Deer R Upper Eyelid
+    100082: Deer R Upper Mouth
+    100084: Deer R UpperArm
+    100086: Deer Spine
+    100088: Deer Spine1
+    100090: Deer Spine2
+    100092: Deer Tail
+    100094: Deer Tail02
+    100096: Deer Tongue
+    100098: Deer Tongue02
+    100100: Deer Tongue03
+    100102: Eye Left
+    100104: Eye Right
+    400000: Deer
+    400002: Deer Head
+    400004: Deer Jaw
+    400006: Deer L Calf
+    400008: Deer L Clavicle
+    400010: Deer L Ear
+    400012: Deer L Ear02
+    400014: Deer L Eyebrow
+    400016: Deer L Finger0
+    400018: Deer L Finger1
+    400020: Deer L Foot
+    400022: Deer L Forearm
+    400024: Deer L Hand
+    400026: Deer L Lower Eyelid
+    400028: Deer L Lower Mouth
+    400030: Deer L Mouth
+    400032: Deer L Thigh
+    400034: Deer L Toe0
+    400036: Deer L Upper Eyelid
+    400038: Deer L Upper Mouth
+    400040: Deer L UpperArm
+    400042: //RootNode
+    400044: Deer Neck
+    400046: Deer Nose
+    400048: Deer Pelvis
+    400050: Deer R Calf
+    400052: Deer R Clavicle
+    400054: Deer R Ear
+    400056: Deer R Ear02
+    400058: Deer R Eyebrow
+    400060: Deer R Finger0
+    400062: Deer R Finger1
+    400064: Deer R Foot
+    400066: Deer R Forearm
+    400068: Deer R Hand
+    400070: Deer R Lower Eyelid
+    400072: Deer R Lower Mouth
+    400074: Deer R Mouth
+    400076: Deer R Thigh
+    400078: Deer R Toe0
+    400080: Deer R Upper Eyelid
+    400082: Deer R Upper Mouth
+    400084: Deer R UpperArm
+    400086: Deer Spine
+    400088: Deer Spine1
+    400090: Deer Spine2
+    400092: Deer Tail
+    400094: Deer Tail02
+    400096: Deer Tongue
+    400098: Deer Tongue02
+    400100: Deer Tongue03
+    400102: Eye Left
+    400104: Eye Right
+    2100000: Eyes
+    2100002: Eye Shine
+    2300000: Eye Left
+    2300002: Eye Right
+    3300000: Eye Left
+    3300002: Eye Right
+    4300000: Eye Left
+    4300002: Eye Right
+    7400000: Deer Talk
+    7400002: Deer Success
+    7400004: Deer Failure
+    7400006: Deer Sleep
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Deer Talk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/Deer Pelvis
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot/Deer L Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot/Deer R Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer L Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer R Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02/Deer Tongue03
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear/Deer L Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Nose
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear/Deer R Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Left
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Right
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail/Deer Tail02
+        weight: 1
+      - path: Deer Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8e4f0954d7f12744cbfa0dac04603ccd, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Deer Success
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/Deer Pelvis
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot/Deer L Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot/Deer R Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer L Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer R Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02/Deer Tongue03
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear/Deer L Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Nose
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear/Deer R Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Left
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Right
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail/Deer Tail02
+        weight: 1
+      - path: Deer Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8e4f0954d7f12744cbfa0dac04603ccd, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Deer Failure
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/Deer Pelvis
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot/Deer L Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot/Deer R Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer L Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer R Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02/Deer Tongue03
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear/Deer L Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Nose
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear/Deer R Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Left
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Right
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail/Deer Tail02
+        weight: 1
+      - path: Deer Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8e4f0954d7f12744cbfa0dac04603ccd, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Deer Sleep
+      takeName: Take 001
+      firstFrame: 290
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Deer
+        weight: 1
+      - path: Deer/Deer Pelvis
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer L Thigh/Deer L Calf/Deer L Foot/Deer L Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer R Thigh/Deer R Calf/Deer R Foot/Deer R Toe0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer L Clavicle/Deer
+          L UpperArm/Deer L Forearm/Deer L Hand/Deer L Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer L Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer R Lower Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Jaw/Deer Tongue/Deer Tongue02/Deer Tongue03
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Ear/Deer L Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          L Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          Nose
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Ear/Deer R Ear02
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Eyebrow
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Lower Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Eyelid
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Deer
+          R Upper Mouth
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Left
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer Neck/Deer Head/Eye
+          Right
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger0
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Spine/Deer Spine1/Deer Spine2/Deer R Clavicle/Deer
+          R UpperArm/Deer R Forearm/Deer R Hand/Deer R Finger1
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail
+        weight: 1
+      - path: Deer/Deer Pelvis/Deer Tail/Deer Tail02
+        weight: 1
+      - path: Deer Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8e4f0954d7f12744cbfa0dac04603ccd, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Deer Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Deer Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Deer(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000056566813, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer
+      parentName: Deer(Clone)
+      position: {x: -0.0000000013225739, y: 0.4308119, z: -2.5104346e-10}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer Pelvis
+      parentName: Deer
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Deer L Thigh
+      parentName: Deer Pelvis
+      position: {x: 0.000000114440915, y: 0.00000013706621, z: 0.0852573}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Deer L Calf
+      parentName: Deer L Thigh
+      position: {x: -0.20180996, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Deer L Foot
+      parentName: Deer L Calf
+      position: {x: -0.17415912, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer L Toe0
+      parentName: Deer L Foot
+      position: {x: -0.047729988, y: 0.07728287, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Deer R Thigh
+      parentName: Deer Pelvis
+      position: {x: -0.000000114440915, y: -0.00000009940345, z: -0.0852573}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer R Calf
+      parentName: Deer R Thigh
+      position: {x: -0.20180994, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Foot
+      parentName: Deer R Calf
+      position: {x: -0.17415912, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Deer R Toe0
+      parentName: Deer R Foot
+      position: {x: -0.047729988, y: 0.07728286, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Deer Spine
+      parentName: Deer Pelvis
+      position: {x: -0.06034889, y: -0.000081972816, z: 0.00000008380546}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Deer Spine1
+      parentName: Deer Spine
+      position: {x: -0.10391086, y: -0.000080380436, z: -2.2297171e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Spine2
+      parentName: Deer Spine1
+      position: {x: -0.10392906, y: -0.000082759856, z: -2.2955646e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer L Clavicle
+      parentName: Deer Spine2
+      position: {x: -0.059627607, y: -0.004575491, z: 0.021188144}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Deer L UpperArm
+      parentName: Deer L Clavicle
+      position: {x: -0.07282714, y: -0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Forearm
+      parentName: Deer L UpperArm
+      position: {x: -0.1588689, y: -0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Deer L Hand
+      parentName: Deer L Forearm
+      position: {x: -0.13373484, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Finger0
+      parentName: Deer L Hand
+      position: {x: -0.04165342, y: 0.00048538207, z: -0.02300478}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer L Finger1
+      parentName: Deer L Hand
+      position: {x: -0.060870875, y: 0.00078964233, z: 0.0033977698}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Deer Neck
+      parentName: Deer Spine2
+      position: {x: -0.10895538, y: 0.00377285, z: 0.000000005897309}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Head
+      parentName: Deer Neck
+      position: {x: -0.10151291, y: 0, z: -1.8189894e-14}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Jaw
+      parentName: Deer Head
+      position: {x: -0.1577336, y: 0.08790643, z: 0.00000011976543}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Deer L Lower Mouth
+      parentName: Deer Jaw
+      position: {x: -0.15094978, y: 0.008617782, z: -0.012919787}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Lower Mouth
+      parentName: Deer Jaw
+      position: {x: -0.1509497, y: 0.008617554, z: 0.01291983}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Deer Tongue
+      parentName: Deer Jaw
+      position: {x: -0.07099426, y: 0.034978256, z: 0.00000014683347}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: Deer Tongue02
+      parentName: Deer Tongue
+      position: {x: -0.046621416, y: -0.00003601074, z: -1.13504935e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer Tongue03
+      parentName: Deer Tongue02
+      position: {x: -0.046613503, y: -0.000037078855, z: 0.0000004638161}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Deer L Ear
+      parentName: Deer Head
+      position: {x: -0.37992126, y: -0.11079231, z: 0.21848999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Deer L Ear02
+      parentName: Deer L Ear
+      position: {x: -0.20860298, y: -0.00016495705, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Deer L Eyebrow
+      parentName: Deer Head
+      position: {x: -0.25541434, y: 0.043436278, z: 0.025896925}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer L Lower Eyelid
+      parentName: Deer Head
+      position: {x: -0.20719917, y: 0.10287514, z: 0.10708862}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Deer L Mouth
+      parentName: Deer Head
+      position: {x: -0.2042285, y: 0.055782355, z: 0.014484578}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Deer L Upper Eyelid
+      parentName: Deer Head
+      position: {x: -0.20866759, y: 0.098472565, z: 0.10709842}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer L Upper Mouth
+      parentName: Deer Head
+      position: {x: -0.099748306, y: 0.26925528, z: -0.0011637253}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: Deer Nose
+      parentName: Deer Head
+      position: {x: -0.10034813, y: 0.33956248, z: 0.00000046141767}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Deer R Ear
+      parentName: Deer Head
+      position: {x: -0.37992126, y: -0.11079112, z: -0.21849054}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer R Ear02
+      parentName: Deer R Ear
+      position: {x: -0.2086029, y: -0.00016497611, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Deer R Eyebrow
+      parentName: Deer Head
+      position: {x: -0.25541434, y: 0.043436427, z: -0.025896668}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Deer R Lower Eyelid
+      parentName: Deer Head
+      position: {x: -0.20719917, y: 0.102875724, z: -0.10708807}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Deer R Mouth
+      parentName: Deer Head
+      position: {x: -0.2042285, y: 0.055782456, z: -0.0144842705}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Deer R Upper Eyelid
+      parentName: Deer Head
+      position: {x: -0.20866759, y: 0.09847315, z: -0.107097864}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Deer R Upper Mouth
+      parentName: Deer Head
+      position: {x: -0.099748306, y: 0.26925525, z: 0.0011652332}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Eye Left
+      parentName: Deer Head
+      position: {x: -0.20451461, y: 0.10933509, z: 0.10365576}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: Eye Right
+      parentName: Deer Head
+      position: {x: -0.20451468, y: 0.10933527, z: -0.103659734}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: Deer R Clavicle
+      parentName: Deer Spine2
+      position: {x: -0.059627607, y: -0.004575367, z: -0.021188173}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Deer R UpperArm
+      parentName: Deer R Clavicle
+      position: {x: -0.07282714, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Deer R Forearm
+      parentName: Deer R UpperArm
+      position: {x: -0.1588689, y: 0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Deer R Hand
+      parentName: Deer R Forearm
+      position: {x: -0.13373487, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Deer R Finger0
+      parentName: Deer R Hand
+      position: {x: -0.041653384, y: 0.00048542023, z: 0.023004798}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Deer R Finger1
+      parentName: Deer R Hand
+      position: {x: -0.060870893, y: 0.00078960415, z: -0.0033977507}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Deer Tail
+      parentName: Deer Pelvis
+      position: {x: -0.0613591, y: -0.06745178, z: 0.00000027400984}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: Deer Tail02
+      parentName: Deer Tail
+      position: {x: -0.08473514, y: -0.00006744385, z: -1.8713762e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Deer Mesh
+      parentName: Deer(Clone)
+      position: {x: -0, y: 0, z: 4.2829468e-10}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c6ee2dc302a358f41894dcc04b207212,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
