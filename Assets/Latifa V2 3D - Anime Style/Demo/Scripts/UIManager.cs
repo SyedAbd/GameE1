@@ -1,42 +1,29 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public Transform character;
     public Animator characterAnimator;
-    public Text viewStatusText;
-    private Quaternion characterFrontRotation;
-    private Quaternion characterLeftRotation;
-    private Quaternion characterRightRotation;
-    private Quaternion characterBackRotation;
-
-    private string frontText = "Front View";
-    private string backText = "Back View";
-    private string rightText = "Right View";
-    private string leftText = "Left View";
-
-    public float frontYRotationValue = -18f;
-    public float backYRotationValue = 150f;
-    public float rightYRotationValue = 10f;
-    public float leftYRotationValue = -10f;
-
-    private bool isTurningLeft = false;
-    private bool isTurningRight = false;
 
     [SerializeField] private float rotationSpeed = 20.0f;
 
-    void Start()
-    {
-        characterFrontRotation = Quaternion.Euler(0, frontYRotationValue, 0);
-        characterLeftRotation = Quaternion.Euler(0, leftYRotationValue, 0);
-        characterRightRotation = Quaternion.Euler(0, rightYRotationValue, 0);
-        characterBackRotation = Quaternion.Euler(0, backYRotationValue, 0);
+    private bool isWalking = false;
+    private bool isRunning = false;
+    private bool isTurningLeft = false;
+    private bool isTurningRight = false;
 
-        character.rotation = characterFrontRotation; // Set initial rotation to front
+    private void Start()
+    {
+        characterAnimator.SetTrigger("idleTrigger"); // Set initial animation state to idle
     }
 
-    void Update()
+    private void Update()
+    {
+        HandleMovementInput();
+        HandleRotationInput();
+    }
+
+    private void HandleMovementInput()
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -45,11 +32,14 @@ public class UIManager : MonoBehaviour
             else
                 TriggerWalk();
         }
-        else if (Input.GetKeyUp(KeyCode.W))
-        {
+
+        if (Input.GetKeyUp(KeyCode.W))
             TriggerIdle();
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
+    }
+
+    private void HandleRotationInput()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
         {
             isTurningLeft = true;
             isTurningRight = false;
@@ -68,8 +58,11 @@ public class UIManager : MonoBehaviour
             isTurningRight = false;
         }
 
-        // Rotate the character while A or D key is pressed
-        // Rotate the character while A or D key is pressed
+        RotateCharacter();
+    }
+
+    private void RotateCharacter()
+    {
         if (isTurningLeft)
         {
             character.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
@@ -78,25 +71,30 @@ public class UIManager : MonoBehaviour
         {
             character.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
         }
-
     }
 
-    public void TriggerIdle()
+    private void TriggerIdle()
     {
         characterAnimator.SetTrigger("idleTrigger");
+        isWalking = false;
+        isRunning = false;
     }
 
-    public void TriggerWalk()
+    private void TriggerWalk()
     {
         characterAnimator.SetTrigger("walkTrigger");
+        isWalking = true;
+        isRunning = false;
     }
 
-    public void TriggerRun()
+    private void TriggerRun()
     {
         characterAnimator.SetTrigger("runTrigger");
+        isWalking = false;
+        isRunning = true;
     }
 
-    public void TriggerBow()
+    private void TriggerBow()
     {
         characterAnimator.SetTrigger("bowTrigger");
     }
