@@ -91,8 +91,6 @@ public class AI_Movement : MonoBehaviour
             }
         }
     }
-
-
     public void ChooseDirection()
     {
         WalkDirection = Random.Range(0, 4);
