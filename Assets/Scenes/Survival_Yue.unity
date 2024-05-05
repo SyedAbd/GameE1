@@ -5050,7 +5050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &438772616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10213,7 +10213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &898414856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14495,6 +14495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646b4b776e765469a8a88089486b6682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInRange: 0
   ItemName: TestingCube
 --- !u!65 &1306008953
 BoxCollider:
@@ -22279,6 +22280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646b4b776e765469a8a88089486b6682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInRange: 0
   ItemName: TestingCube
 --- !u!65 &1982742552
 BoxCollider:

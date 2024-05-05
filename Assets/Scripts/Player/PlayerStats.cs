@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    [Header("Stats")]
+    [Header("stats")]
     public float health;
     public float maxHealth = 100f;
     public float hunger;
@@ -27,7 +27,7 @@ public class PlayerStats : MonoBehaviour
     public StatsBar hungerBar;
     public StatsBar thirstBar;
    
-    void Start()
+    private void Start()
     {
         health = maxHealth;
         hunger = maxHunger;
@@ -35,7 +35,7 @@ public class PlayerStats : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         UpdateStats();
         UpdateUI();
@@ -77,7 +77,7 @@ public class PlayerStats : MonoBehaviour
             health -= thirstDamge * Time.deltaTime;
 
         if (hunger > 0)
-            hunger -= hungerDamage * Time.deltaTime;
+            hunger -= hungerDepletion * Time.deltaTime;
 
         if (thirst > 0)
             thirst -= thirstDepletion * Time.deltaTime;

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fcdd6b300b4df4db92d875f03c7a0f, type: 3}
+  m_Name: Stone Hatchet
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  recipeName: Stone Hatchet
+  requirements:
+  - {fileID: 11400000, guid: 616f079851b5bd4478920297f03facd9, type: 2}
+  - {fileID: 11400000, guid: 5f38c33e8ed9ff24386328b5dbc4e630, type: 2}
+  craftingTime: 0
+  outcome: {fileID: 11400000, guid: 014a66152740c9c4893fe6c9f376095b, type: 2}
+  outcomeAmount: 1
