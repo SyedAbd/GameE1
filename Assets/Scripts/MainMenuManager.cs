@@ -9,7 +9,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject MainMenu;
     public void OnClickPlay()
     {
-        SceneManager.LoadScene("Terrain_Wang");
+        SceneManager.LoadScene("Survival_Yue");
     }
 
     public void OnClickOptions()
