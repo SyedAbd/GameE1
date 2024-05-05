@@ -57,7 +57,7 @@ public class InventoryManager : MonoBehaviour
         }
         else
         {
-            transform.localPosition = new Vector3(-1000,0,0);
+            transform.localPosition = new Vector3(-10000,0,0);
         }
     }
 
