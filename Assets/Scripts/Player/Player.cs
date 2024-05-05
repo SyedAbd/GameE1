@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     private float gravityAcceleration;
     private float yVelocity;
 
+    private bool IsMovementEnabled = true;
+
 
 
 
@@ -32,7 +34,20 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Movement();
+        if (IsMovementEnabled)
+        {
+            Movement();
+        }
+    }
+
+    public void DisableMovement()
+    {
+        IsMovementEnabled = false;
+    }
+
+    public void EnableMovement()
+    {
+        IsMovementEnabled = true;
     }
 
     private void Movement()
@@ -52,16 +67,16 @@ public class Player : MonoBehaviour
         {
             moveDir *= runSpeed;
 
-            cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, new Vector3(0,2,0),crouchTransitionSpeed * Time.deltaTime);
+            cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, new Vector3(0, 2, 0), crouchTransitionSpeed * Time.deltaTime);
             cc.height = Mathf.Lerp(cc.height, 2, crouchTransitionSpeed * Time.deltaTime);
-            cc.center = Vector3.Lerp(cc.center,new Vector3(0,1,0),crouchTransitionSpeed * Time.deltaTime);
+            cc.center = Vector3.Lerp(cc.center, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
 
         }
         else if (Input.GetKey(KeyCode.LeftControl) && !Input.GetKey(KeyCode.LeftShift))
         {
             moveDir *= crouchSpeed;
 
-            cam.transform.localPosition = Vector3.Lerp(cam. transform.localPosition, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
+            cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, new Vector3(0, 1, 0), crouchTransitionSpeed * Time.deltaTime);
             cc.height = Mathf.Lerp(cc.height, 1.2f, crouchTransitionSpeed * Time.deltaTime);
             cc.center = Vector3.Lerp(cc.center, new Vector3(0, 0.59f, 0), crouchTransitionSpeed * Time.deltaTime);
         }

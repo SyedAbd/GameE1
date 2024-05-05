@@ -8,12 +8,16 @@ public class WindowHandler : MonoBehaviour
     private CameraLook cam;
     public bool windowOpened;
 
-    public InventoryManager inventory;
+    [HideInInspector]public InventoryManager inventory;
+    [HideInInspector]public CraftingManager crafting;
+
 
     private void Start()
     {
         cam = GetComponentInChildren<CameraLook>();
+
         inventory = GetComponentInChildren<InventoryManager>();
+        crafting = GetComponentInChildren<CraftingManager>();
     }
 
     private void Update()
