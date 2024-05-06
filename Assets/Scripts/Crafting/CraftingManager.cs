@@ -29,4 +29,15 @@ public class CraftingManager : MonoBehaviour
             }
         }
     }
+
+    public void Try_Craft(RecipeTemplate template)
+    {
+        
+    }
+
+    public void Cancel(RecipeTemplate template)
+    {
+        
+    }
+
 }
