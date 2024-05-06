@@ -17,12 +17,12 @@ public class PlayerStats : MonoBehaviour
 
     [Header("Stats Depletion")]
 
-    public float hungerDepletion = 0.5f;
-    public float thirstDepletion = 0.75f;
+    public float hungerDepletion = 0.25f;
+    public float thirstDepletion = 0.3f;
 
     [Header("Stats Damages")]
-    public float hungerDamage = 1.5f;
-    public float thirstDamge = 2.25f;
+    public float hungerDamage = 0.5f;
+    public float thirstDamge = 0.6f;
 
     [Header("UI")]
     public StatsBar healthBar;
