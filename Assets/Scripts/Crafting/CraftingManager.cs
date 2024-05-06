@@ -12,7 +12,7 @@ public class CraftingManager : MonoBehaviour
     public RecipeTemplate recipeInCraft;
     private bool isCrafting;
     private float currentTimer; 
-    private float timer;
+    
 
     private void Start()
     {
@@ -24,7 +24,7 @@ public class CraftingManager : MonoBehaviour
     {
         if (isCrafting)
         {
-            if (currentTimer < timer)
+            if (currentTimer > 0)
             {
                 recipeInCraft.timerText.text = currentTimer.ToString("f2");
             }
@@ -34,7 +34,7 @@ public class CraftingManager : MonoBehaviour
                 inventory.AddItem(recipeInCraft.recipe.outcome, recipeInCraft.recipe.outcomeAmount);
                 isCrafting = false;
             }
-            currentTimer += Time.deltaTime;
+            currentTimer -= Time.deltaTime;
         }
     }
     public void GenerateRecipes()
@@ -43,7 +43,7 @@ public class CraftingManager : MonoBehaviour
         {
             RecipeTemplate recipe = Instantiate(recipeTemplate.gameObject,contentHolder).GetComponent<RecipeTemplate>();
             recipe.recipe = recipes[i];
-
+            recipe.icon.sprite = recipes[i].icon;
             recipe.nameText.text = recipes[i].recipeName;
             recipe.timerText.text = "";
 
@@ -62,7 +62,11 @@ public class CraftingManager : MonoBehaviour
         if (!HasResources(template.recipe) || isCrafting)
             return;
           TakeResources(template.recipe);
-
+        
+        recipeInCraft = template;
+        isCrafting = true;
+       
+        currentTimer = template.recipe.craftingTime;
     }
 
     public void Cancel(RecipeTemplate template)
@@ -73,6 +77,9 @@ public class CraftingManager : MonoBehaviour
         {
             inventory.AddItem(template.recipe.requirements[i].data, template.recipe.requirements[i].amountNeeded);
         }
+
+        isCrafting = false;
+        recipeInCraft.timerText.text = "";
     }
 
     public bool HasResources(CraftingRecipeSO recipe)
@@ -90,11 +97,15 @@ public class CraftingManager : MonoBehaviour
         stacksNeeded = stacksNeededList.ToArray();
         stacksAvailable = new int[stacksNeeded.Length];
 
-        for (int i = 0;i< inventory.inventorySlots.Length;i++)
+        for (int b = 0; b < recipe.requirements.Length; b++)
         {
-            if (inventory.inventorySlots[i].data == recipe.requirements[i].data)
+
+            for (int i = 0; i < inventory.inventorySlots.Length; i++)
             {
-                stacksAvailable[i] += inventory.inventorySlots[i].stackSize;
+                if (inventory.inventorySlots[i].data == recipe.requirements[b].data)
+                {
+                    stacksAvailable[b] += inventory.inventorySlots[i].stackSize;
+                }
             }
         }
         for (int i = 0;i< stacksAvailable.Length; i++)
@@ -119,34 +130,44 @@ public class CraftingManager : MonoBehaviour
 
         for (int i = 0; i < recipe.requirements.Length; i++)
         {
-            stacksNeededList.Add(recipe.requirements[i].amountNeeded);
+            stacksNeededList.Add(0);
         }
         stacksNeeded = stacksNeededList.ToArray();
+
 
         for (int i = 0; i < recipe.requirements.Length; i++)
         {
             for(int b = 0; b< inventory.inventorySlots.Length;b++) 
             {
-                if (inventory.inventorySlots[b].IsEmpty)
-                    return;
-                if (inventory.inventorySlots[b].data == recipe.requirements[i].data)
+                if (!inventory.inventorySlots[b].IsEmpty)
                 {
-                    if (stacksNeeded[i] < recipe.requirements[i].amountNeeded)
+                    if (inventory.inventorySlots[b].data == recipe.requirements[i].data)
                     {
-                        if (stacksNeeded[i] - inventory.inventorySlots[b].stackSize < 0)
+                        if (stacksNeeded[i] < recipe.requirements[i].amountNeeded)
                         {
-                            inventory.inventorySlots[b].stackSize -=stacksNeeded[i];
-                            stacksNeeded[i] = 0;
-                        }
-                        else
-                        {
-                            stacksNeeded[i] -= inventory.inventorySlots[b].stackSize;
-                            inventory.inventorySlots[b].Clean();
+                            if (stacksNeeded[i] + inventory.inventorySlots[b].stackSize > recipe.requirements[i].amountNeeded)
+                            {
+                                int amountLeftOnSlot = (inventory.inventorySlots[b].stackSize + stacksNeeded[i]) - recipe.requirements[i].amountNeeded;
+                                inventory.inventorySlots[b].stackSize = amountLeftOnSlot;
+                                stacksNeeded[i] = recipe.requirements[i].amountNeeded;
+
+
+                            }
+
+                            else
+                            {
+                                stacksNeeded[i] += inventory.inventorySlots[b].stackSize;
+                                inventory.inventorySlots[b].Clean();
+
+
+                            }
+
                         }
 
+
+
+                        inventory.inventorySlots[b].UpdateSlot();
                     }
-
-                    inventory.inventorySlots[b].UpdateSlot();
                 }
             }
         }
