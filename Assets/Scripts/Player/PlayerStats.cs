@@ -59,6 +59,8 @@ public class PlayerStats : MonoBehaviour
     {
         if (health <= 0)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene(sceneToLoad);
             health = 0;
         }
