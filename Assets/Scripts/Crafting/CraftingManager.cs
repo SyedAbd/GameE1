@@ -18,6 +18,10 @@ public class CraftingManager : MonoBehaviour
         {
             RecipeTemplate recipe = Instantiate(recipeTemplate.gameObject,contentHolder).GetComponent<RecipeTemplate>();
 
+            recipe.recipe = recipes[i];
+
+            recipe.icon.sprite = recipes[i].icon;
+
             recipe.nameText.text = recipes[i].recipeName;
 
             for (int b = 0; b < recipes[i].requirements.Length; b++)
@@ -25,8 +29,19 @@ public class CraftingManager : MonoBehaviour
                 if (b == 0)
                 recipe.requirementText.text = $"{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
                 else
-                    recipe.requirementText.text = $"{recipe.requirementText},{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
+                    recipe.requirementText.text = $"{recipe.requirementText.text},{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
             }
         }
     }
+    public void Try_Craft(RecipeTemplate template)
+    {
+
+    }
+
+    public void Cancel(RecipeTemplate template)
+    {
+
+    }
+
+
 }
