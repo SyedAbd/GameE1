@@ -25,7 +25,7 @@ public class CraftingManager : MonoBehaviour
                 if (b == 0)
                 recipe.requirementText.text = $"{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
                 else
-                    recipe.requirementText.text = $"{recipe.requirementText},{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
+                    recipe.requirementText.text = $"{recipe.requirementText.text},{recipes[i].requirements[b].data.itemName}  {recipes[i].requirements[b].amountNeeded}";
             }
         }
     }
