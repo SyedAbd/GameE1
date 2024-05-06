@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    [SerializeField] private string sceneToLoad;
     [Header("stats")]
     public float health;
     public float maxHealth = 100f;
@@ -56,7 +58,10 @@ public class PlayerStats : MonoBehaviour
     private void UpdateStats()
     {
         if (health <= 0)
+        {
+            SceneManager.LoadScene(sceneToLoad);
             health = 0;
+        }
         if (health >= maxHealth)
             health = maxHealth;
 

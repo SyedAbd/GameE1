@@ -32,8 +32,7 @@ public class CameraLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        horizontalRot = 180f;
-        verticalRot = 0f;
+        horizontalRot = player.transform.rotation.y;
 
         sensitivity *= 20;
     }
